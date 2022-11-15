@@ -60,11 +60,11 @@ function App() {
           </button>
           <ul className="categories">
             <li>
-              <Link to="/category/Pants">Pants</Link>
+              <Link to="/category/Locion Hombres">Pants</Link>
             </li>
 
             <li>
-              <Link to="/category/Shirts">Shirts</Link>
+              <Link to="/category/Locion Mujeres">Shirts</Link>
             </li>
           </ul>
         </aside>
@@ -85,7 +85,7 @@ function App() {
             <Route path="/" exact={true} component={HomeScreen} />
           </div>
         </main>
-        <footer className="footer">All right reserved.</footer>
+        <footer className="footer">Tienda de perfumes.</footer>
       </div>
     </BrowserRouter>
   );
