@@ -28,7 +28,7 @@
     "nodemon": "^2.0.2"
   },
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
+    "start": "node backend/server.js",
     "build": "export NODE_OPTIONS=--openssl-legacy-provider; gatsby build",
     "heroku-postbuild-x": "npm run build && cd frontend && npm install && npm run build"
   },
